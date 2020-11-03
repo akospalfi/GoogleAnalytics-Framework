@@ -6,6 +6,10 @@
 
 **GoogleAnalytics-Framework** is a dynamic framework wrapper for [Google Analytics iOS SDK](https://developers.google.com/analytics/devguides/collection/ios/v3/).
 
+## Warning 
+
+**This project is no longer maintained and may be completely removed from GitHub in the future. Please use the official distribution of Google Analytics iOS SDK instead.**
+
 ## Usage
 
 The project defines a `GoogleAnalytics.framework` target, therefore you may import it like any other library or module:
