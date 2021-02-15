@@ -319,6 +319,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 3A9158311B1220A100A8FA96;
@@ -379,6 +380,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3A9158681B12217400A8FA96 /* iOS-Framework.xcconfig */;
 			buildSettings = {
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = "Google Analytics/GoogleAnalytics-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -397,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3A9158681B12217400A8FA96 /* iOS-Framework.xcconfig */;
 			buildSettings = {
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = "Google Analytics/GoogleAnalytics-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
